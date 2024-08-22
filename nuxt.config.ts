@@ -41,7 +41,7 @@ export default defineNuxtConfig({
   },
   hub: {
     database: true,
-    blob: true,
+    blob: false,
     kv: true,
   },
   security: {
